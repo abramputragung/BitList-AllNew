@@ -8,13 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		804E8AF71C325E4200A1910D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804E8AF61C325E4200A1910D /* AppDelegate.swift */; };
-		804E8AF91C325E4200A1910D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804E8AF81C325E4200A1910D /* ViewController.swift */; };
 		804E8AFC1C325E4200A1910D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 804E8AFA1C325E4200A1910D /* Main.storyboard */; };
 		804E8AFF1C325E4200A1910D /* BitList_AllNew.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 804E8AFD1C325E4200A1910D /* BitList_AllNew.xcdatamodeld */; };
 		804E8B011C325E4200A1910D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 804E8B001C325E4200A1910D /* Assets.xcassets */; };
 		804E8B041C325E4200A1910D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 804E8B021C325E4200A1910D /* LaunchScreen.storyboard */; };
 		804E8B0F1C325E4200A1910D /* BitList_AllNewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804E8B0E1C325E4200A1910D /* BitList_AllNewTests.swift */; };
 		804E8B1A1C325E4200A1910D /* BitList_AllNewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804E8B191C325E4200A1910D /* BitList_AllNewUITests.swift */; };
+		804E8B281C325E7300A1910D /* ToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804E8B271C325E7200A1910D /* ToDoViewController.swift */; };
+		804E8B2B1C325FF200A1910D /* ToDoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804E8B2A1C325FF200A1910D /* ToDoTableViewCell.swift */; };
+		804E8B2D1C32602700A1910D /* AddToDoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804E8B2C1C32602700A1910D /* AddToDoTableViewCell.swift */; };
+		804F18781C3ADDA500F133C2 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804F18771C3ADDA500F133C2 /* DatePickerView.swift */; };
+		804F187A1C3BC38F00F133C2 /* RepeatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804F18791C3BC38F00F133C2 /* RepeatView.swift */; };
+		804F187C1C3D675A00F133C2 /* CDHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804F187B1C3D675A00F133C2 /* CDHelper.swift */; };
+		804F187F1C3D6B3400F133C2 /* ToDoModel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804F187D1C3D6B3400F133C2 /* ToDoModel+CoreDataProperties.swift */; };
+		804F18801C3D6B3400F133C2 /* ToDoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804F187E1C3D6B3400F133C2 /* ToDoModel.swift */; };
+		804F18821C3D6C3000F133C2 /* Repeated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804F18811C3D6C3000F133C2 /* Repeated.swift */; };
+		80647B0C1C3A328B00298929 /* TodoViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80647B0B1C3A328B00298929 /* TodoViewControllers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +46,6 @@
 /* Begin PBXFileReference section */
 		804E8AF31C325E4200A1910D /* BitList-AllNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BitList-AllNew.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		804E8AF61C325E4200A1910D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		804E8AF81C325E4200A1910D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		804E8AFB1C325E4200A1910D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		804E8AFE1C325E4200A1910D /* BitList_AllNew.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BitList_AllNew.xcdatamodel; sourceTree = "<group>"; };
 		804E8B001C325E4200A1910D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +57,16 @@
 		804E8B151C325E4200A1910D /* BitList-AllNewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BitList-AllNewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		804E8B191C325E4200A1910D /* BitList_AllNewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitList_AllNewUITests.swift; sourceTree = "<group>"; };
 		804E8B1B1C325E4200A1910D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		804E8B271C325E7200A1910D /* ToDoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoViewController.swift; sourceTree = "<group>"; };
+		804E8B2A1C325FF200A1910D /* ToDoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoTableViewCell.swift; sourceTree = "<group>"; };
+		804E8B2C1C32602700A1910D /* AddToDoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddToDoTableViewCell.swift; sourceTree = "<group>"; };
+		804F18771C3ADDA500F133C2 /* DatePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		804F18791C3BC38F00F133C2 /* RepeatView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepeatView.swift; sourceTree = "<group>"; };
+		804F187B1C3D675A00F133C2 /* CDHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CDHelper.swift; path = ../../CDHelper.swift; sourceTree = "<group>"; };
+		804F187D1C3D6B3400F133C2 /* ToDoModel+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ToDoModel+CoreDataProperties.swift"; path = "../ToDoModel+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		804F187E1C3D6B3400F133C2 /* ToDoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ToDoModel.swift; path = ../ToDoModel.swift; sourceTree = "<group>"; };
+		804F18811C3D6C3000F133C2 /* Repeated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repeated.swift; sourceTree = "<group>"; };
+		80647B0B1C3A328B00298929 /* TodoViewControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoViewControllers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +118,10 @@
 			isa = PBXGroup;
 			children = (
 				804E8AF61C325E4200A1910D /* AppDelegate.swift */,
-				804E8AF81C325E4200A1910D /* ViewController.swift */,
+				804F187B1C3D675A00F133C2 /* CDHelper.swift */,
+				804E8B291C325E7B00A1910D /* ToDoViewController */,
+				80647B0A1C3A323700298929 /* TodoViewControllers */,
+				804E8B2E1C32AA1000A1910D /* Model */,
 				804E8AFA1C325E4200A1910D /* Main.storyboard */,
 				804E8B001C325E4200A1910D /* Assets.xcassets */,
 				804E8B021C325E4200A1910D /* LaunchScreen.storyboard */,
@@ -126,6 +147,36 @@
 				804E8B1B1C325E4200A1910D /* Info.plist */,
 			);
 			path = "BitList-AllNewUITests";
+			sourceTree = "<group>";
+		};
+		804E8B291C325E7B00A1910D /* ToDoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				804E8B271C325E7200A1910D /* ToDoViewController.swift */,
+				804E8B2A1C325FF200A1910D /* ToDoTableViewCell.swift */,
+				804E8B2C1C32602700A1910D /* AddToDoTableViewCell.swift */,
+			);
+			name = ToDoViewController;
+			sourceTree = "<group>";
+		};
+		804E8B2E1C32AA1000A1910D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				804F187D1C3D6B3400F133C2 /* ToDoModel+CoreDataProperties.swift */,
+				804F187E1C3D6B3400F133C2 /* ToDoModel.swift */,
+				804F18811C3D6C3000F133C2 /* Repeated.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		80647B0A1C3A323700298929 /* TodoViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				80647B0B1C3A328B00298929 /* TodoViewControllers.swift */,
+				804F18771C3ADDA500F133C2 /* DatePickerView.swift */,
+				804F18791C3BC38F00F133C2 /* RepeatView.swift */,
+			);
+			name = TodoViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,8 +311,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				804E8AFF1C325E4200A1910D /* BitList_AllNew.xcdatamodeld in Sources */,
-				804E8AF91C325E4200A1910D /* ViewController.swift in Sources */,
+				804F187F1C3D6B3400F133C2 /* ToDoModel+CoreDataProperties.swift in Sources */,
+				804E8B2D1C32602700A1910D /* AddToDoTableViewCell.swift in Sources */,
+				804E8B281C325E7300A1910D /* ToDoViewController.swift in Sources */,
+				804F187A1C3BC38F00F133C2 /* RepeatView.swift in Sources */,
+				804F18801C3D6B3400F133C2 /* ToDoModel.swift in Sources */,
 				804E8AF71C325E4200A1910D /* AppDelegate.swift in Sources */,
+				80647B0C1C3A328B00298929 /* TodoViewControllers.swift in Sources */,
+				804F187C1C3D675A00F133C2 /* CDHelper.swift in Sources */,
+				804E8B2B1C325FF200A1910D /* ToDoTableViewCell.swift in Sources */,
+				804F18781C3ADDA500F133C2 /* DatePickerView.swift in Sources */,
+				804F18821C3D6C3000F133C2 /* Repeated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +548,7 @@
 				804E8B201C325E4200A1910D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		804E8B211C325E4200A1910D /* Build configuration list for PBXNativeTarget "BitList-AllNewTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +557,7 @@
 				804E8B231C325E4200A1910D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		804E8B241C325E4200A1910D /* Build configuration list for PBXNativeTarget "BitList-AllNewUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +566,7 @@
 				804E8B261C325E4200A1910D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
